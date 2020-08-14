@@ -1,11 +1,11 @@
-# [DEMO!!!](https://trello-clone-liv-saude-backend.herokuapp.com) 
+# [DEMO!!!](https://trello-clone-liv-saude.herokuapp.com) 
 
 # Hosting:
 A aplicação encontra-se hospedada no Heroku.
 
 Link Backend: https://trello-clone-liv-saude-backend.herokuapp.com
 
-Link Frontend :https://trello-clone-liv-saude.herokuapp.com
+Link Frontend: https://trello-clone-liv-saude.herokuapp.com
 
 
 # Back End:
