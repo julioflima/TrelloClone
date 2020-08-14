@@ -2,7 +2,14 @@
 
 # Hosting:
 A aplicação encontra-se hospedada no Heroku.
+Para isso, como a aplicação foi inicialmente pensada como "monorepo", houve alguns conflitos, na hospedagem do Heroku (nada que com mais tempo não pudesse ser resolvido). Desse modo fora criado esse repositório para unificar os diretórios e os diretórios backend e frontend foram dividos em outros dois repositórios. Segue abaixo os respectivos links:
 
+Link Repositório Backend: https://github.com/juloko/TrelloClone-Backend
+
+Link Repositório Frontend: https://github.com/juloko/TrelloClone-Frontend
+
+
+# Deploy
 Link Backend: https://trello-clone-liv-saude-backend.herokuapp.com
 
 Link Frontend: https://trello-clone-liv-saude.herokuapp.com
