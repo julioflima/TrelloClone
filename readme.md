@@ -6,6 +6,7 @@ A aplicação encontra-se hospedada no Heroku.
 Na aplicação não fora utilizado scripts SQL puros, e sim uma tecnologia chamada Query Builder que possibilita por meio de código em JS, fazer uma chamada a scripts de maneira mais natural. A principal vantagem do Query Builder, é na verdade a portabilidade para qualquer banco de dados em SQL, seja ele, Oracle, MySQL ou PostgreSQL. O Query Builder, utilizado fora o Knex.  Segue abaixo uma comparação entre as duas tecnologias:
 
 Driver: `SELECT * FROM users`
+
 Query Builder: `table('users').select('*').where()`
 
 
