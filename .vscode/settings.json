@@ -30,5 +30,6 @@
             "isConnected": true,
             "name": "BeTheHero"
         }
-    ]
+    ],
+    "git.ignoreLimitWarning": true
 }
