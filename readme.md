@@ -22,11 +22,14 @@ Driver: `SELECT * FROM users`
 
 Query Builder: `table('users').select('*').where()`
 
-
 Também fora adicionado um Template compatível com o software Insomnia, para fazer a inserção de "To dos" e testar o endpoint. 
 
 No modo desenvolvimento  fora utilizado o SQLite, e no modo produção  o PostgreSQL, como pedido.
 
+# Front End
+A aplicação fora desenvolvida em React, visando uma utilização em um computador. A responsividade aqui não fora o foco devido ao pouco tempo, novamente não seria nada complicado a implementação, no entanto o foco aqui foram as funcionalidades básicas.
+
+Outras coisas que seriam fundamentais de serem implementadas, seriam o Drag and Drop para inverter as listas se necessários e as ordens dos cartões. Outra coisa que seria interessante seria implementar quem viu, quem alterou, o card e partir de cada card haver um link parar um documento onde pudesse haver mais explanações sobre o projeto, se escrever em `mardown` e adicionar imagens estáticas e gifs.
 
 
 
