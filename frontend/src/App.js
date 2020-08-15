@@ -1,13 +1,17 @@
 import React, { Component } from 'react';
-import { uniqueId } from 'lodash';
+// import { uniqueId } from 'lodash';
 
-import api from './services/api';
+// import api from './services/api';
 
 import GlobalStyle from './styles/global';
 import { Navbar, Container, Dashboard, Logo } from './styles';
 
 import List from './components/List';
+import AddList from './components/AddList';
 import Card from './components/Card';
+
+
+
 
 class App extends Component {
   render() {
@@ -37,7 +41,7 @@ class App extends Component {
               <Card>Card</Card>
               <Card>Card</Card>
             </List>
-            <List  />
+            <AddList  />
           </Container>
         </Dashboard>
       </div>
