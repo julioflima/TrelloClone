@@ -1,12 +1,13 @@
-import React, { Component } from "react";
-import { uniqueId } from "lodash";
+import React, { Component } from 'react';
+import { uniqueId } from 'lodash';
 
-import api from "./services/api";
+import api from './services/api';
 
-import GlobalStyle from "./styles/global";
-import { Navbar, Container, Dashboard, List, Logo } from "./styles";
+import GlobalStyle from './styles/global';
+import { Navbar, Container, Dashboard, Logo } from './styles';
 
-import Card from ''
+import List from './components/List';
+import Card from './components/Card';
 
 class App extends Component {
   render() {
@@ -18,21 +19,25 @@ class App extends Component {
             <Logo />
           </Navbar>
           <Container>
-            <List>
-              List
+            <List name={'Backlog'}>
               <Card>Card</Card>
               <Card>Card</Card>
               <Card>Card</Card>
               <Card>Card</Card>
             </List>
-            <List>
-              List
+            <List name={'Roadmap'}>
               <Card>Card</Card>
               <Card>Card</Card>
               <Card>Card</Card>
               <Card>Card</Card>
             </List>
-            <List>List Card</List>
+            <List name={'Sprint'}>
+              <Card>Card</Card>
+              <Card>Card</Card>
+              <Card>Card</Card>
+              <Card>Card</Card>
+            </List>
+            <List  />
           </Container>
         </Dashboard>
       </div>

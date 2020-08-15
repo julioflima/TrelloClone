@@ -24,15 +24,6 @@ export const Dashboard = styled.div`
   background-position: 50% 50%;
 `;
 
-export const List = styled.div`
-  min-width: 100%;
-  margin: 10px 0px 10px 10px;
-  background: #f1f1f1;
-  border-radius: 10px;
-  padding: 20px;
-  box-shadow: inset 6px 6px 10px 0 rgb(125 125 125 / 18%), inset -6px -6px 10px 0 rgb(255 255 255 / 78%);
-`;
-
 export const Navbar = styled.div`
   width: calc(100vw - 2vmax);
   height: 50px;

@@ -1,28 +1,33 @@
 import styled from 'styled-components';
 
-
 export const Container = styled.div`
   background: #fff;
   border-radius: 4px;
   margin: 10px 0;
-  padding: 10px;  box-shadow: 6px 6px 14px 0 rgba(0, 0, 0, 0.2),
-    -8px -8px 18px 0 rgba(255, 255, 255, 0.55);
+  padding: 10px;
+  box-shadow: 4px 4px 8px 0 rgb(0 0 0 / 5%), -4px -4px 20px 0 rgb(255 255 255 / 50%);
+`;
+
+export const Badges = styled.div`
+  font-size: 14px;
+  font-weight: 500;
+  color: #6d6d6d;
 `;
 
 export const Title = styled.div`
-font-size: 12px;
-padding:10px;
-  
+  font-size: 14px;
+  font-weight: 500;
+  color: #6d6d6d;
 `;
 
 export const Description = styled.div`
-font-size: 10px;
-padding:10px
-  
+  font-size: 10px;
+  font-weight: 200;
+  color: #828282;
 `;
 
 export const Buttons = styled.div`
-  
+  display: flex;
+  justify-content: flex-end;
+  cursor:pointer;
 `;
-
-
